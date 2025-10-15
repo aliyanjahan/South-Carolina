@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+/* Navbar */
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(217, 255, 47);
+    padding: 5px 10px;
+
+}
+
+nav img {
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    font-size: 23px;
+}
+
+nav ul li a {
+    color: #00030f;
+    transition: .3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #13a9fa;
+}
+
+
+nav .herobtn {
+    background-color: #034406;
+    color: #fdf0d5;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+    transition: .3s ease;
+}
+
+nav .herobtn:hover {
+    transform: skew(15deg);
+}
+
+
+nav .herobtn:hover {
+    background-color: #fdf0d5;
+    border: 2px solid #034406;
+    color: #0e5712;
+}
+
+/* header */
+#wapper {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    font-size: 23px;
+    align-items: center;
+    padding: 50px;
+
+}
+
+#wapper .herohead {
+    width: 60%;
+    height: auto;
+    text-align: center;
+}
+
+#wapper .herohead h4 {
+    color: #0e5712;
+}
+
+
+#wapper .herohead h1 span {
+    color: #13a9fa;
+}
+
+#wapper .herohead p {
+    padding-bottom: 50px;
+    line-height: 25px;
+}
+
+#wapper .herohead a {
+    color: #fdf0d5;
+    background-color: #034406;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+#wapper .herohead a:hover {
+    color: #780000;
+    background-color: transparent;
+    border: 2px solid #780000;
+
+}
+
+#wapper .herohead #wapper .heroimg {
+    width: 50px;
+}
+
+#wapper .heroimg img {
+    width: 700px;
+    height: 643px;
+    margin-bottom: -12px;
+    margin-left: 30px;
+    margin-right: -49px;
+}
+
+#wapper .herehead {
+    width: 60%;
+    height: auto;
+    text-align: center;
+}
+
+#wapper .wapperbtn {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+#wapper .wapperbtn .wapperbtn1 {
+    transition: 0.4s ease;
+}
+
+#wapper .wapperbtn .wapperbtn1:hover {
+    transform: translatey(-12px);
+}
+
+#wapper .wapperbtn .wapperbtn2 {
+    transition: 0.4s ease;
+}
+
+#wapper .wapperbtn .wapperbtn2:hover {
+    transform: translatey(12px);
+}
+
+/* section 1 */
+.sec1 {
+    width: 100%;
+    height: auto;
+    padding: 50px 50px;
+    background-color: rgb(221, 221, 221);
+}
+
+/* Main div  */
+.sec1 .divwapper .subdivwapper {
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec1 .cardwapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec1 .cardwapper .card {
+    width: 200px;
+    height: 300px;
+    background-color: #13a9fa;
+    border-radius: 14px;
+    transition: 0.6s ease;
+    text-align: center;
+
+}
+
+/* sec hover */
+.sec1 .cardwapper .card:hover {
+    box-shadow: 15px 15px 6px rgb(217, 255, 47);
+}
+
+/* sec img */
+.sec1 .cardwapper .card img {
+    width: 90px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 7px;
+    outline: 1px solid white;
+    outline-offset: 5px;
+    margin-bottom: 16px;
+}
+
+/* sech1 */
+.sec1 .cardwapper .card h1 {
+    color: rgb(216, 219, 13);
+    margin-bottom: 10px;
+}
+
+.sec1 .paratext p {
+    border-left: 2px solid aqua;
+    padding-left: 10px;
+
+}
+
+
+/* sec p */
+
+.sec1 .cardwapper .card p {
+    color: white;
+    font-size: small;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    line-height: 18px;
+}
+
+
+
+/* footer */
+footer {
+    text-align: center;
+    background-color: rgb(217, 255, 47);
+    height: 200px;
+}
+
+footer .mainfooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
